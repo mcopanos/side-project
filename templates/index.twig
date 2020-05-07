@@ -6,15 +6,17 @@
     <title>Welcome to Craft CMS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <meta name="referrer" content="origin-when-cross-origin" />
-    <link href="/css/app.css" rel="stylesheet">
+{#    <link rel="stylesheet" href="{{ mix('/css/app.css') }}">#}
 </head>
 <body>
-    <div id="container">
-        {% include 'includes/nav.twig' %}
-        
-        {% include "pages/home.twig" %}
+    {% include 'includes/header.twig' %}
 
-        {% include 'includes/footer.twig' %}
-    </div>
+        <main role="main">
+            {% block main %}{% endblock %}
+        </main>
+
+    {% include 'includes/footer.twig' %}
+
+    <script src="/js/main.js"></script>
 </body>
 </html>
