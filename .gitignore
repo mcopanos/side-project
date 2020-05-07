@@ -2,3 +2,11 @@
 /.idea
 /vendor
 .DS_Store
+/web/**
+!/web/index.php
+!/web/.htaccess
+!/web/web.config
+/storage/**
+!/storage/.gitkeep
+/config/license.key
+/node_modules
