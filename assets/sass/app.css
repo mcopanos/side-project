@@ -9,7 +9,6 @@ figure {
   grid-row: 1/2;
   margin: 0;
 }
-
 figure img {
   width: 100%;
   height: 100%;
@@ -28,3 +27,4 @@ body {
   grid-template-rows: 45vh 55vh;
 }
 
+/*# sourceMappingURL=app.css.map */

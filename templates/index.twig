@@ -9,12 +9,15 @@
     <link href="/css/app.css" rel="stylesheet">
 </head>
 <body>
-    <div id="container">
-        {% include 'includes/nav.twig' %}
-        
-        {% include "pages/home.twig" %}
+    {% include 'includes/nav.twig' %}
+    {% include 'includes/heroImage.twig' %}
 
-        {% include 'includes/footer.twig' %}
+    <div class="main">
+        <main role="main" class="main-contianer">
+            {% block main %}{% endblock %}
+        </main>
     </div>
+
+    {% include 'includes/footer.twig' %}
 </body>
 </html>

@@ -93,8 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var test = "test";
-console.log(test);
+eval("var test = \"test\";\nconsole.log(test);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hc3NldHMvanMvbWFpbi5qcz80NWQ4Il0sIm5hbWVzIjpbInRlc3QiLCJjb25zb2xlIiwibG9nIl0sIm1hcHBpbmdzIjoiQUFBQSxJQUFNQSxJQUFJLEdBQUcsTUFBYjtBQUVBQyxPQUFPLENBQUNDLEdBQVIsQ0FBWUYsSUFBWiIsImZpbGUiOiIuL2Fzc2V0cy9qcy9tYWluLmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgdGVzdCA9IFwidGVzdFwiO1xuXG5jb25zb2xlLmxvZyh0ZXN0KTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./assets/js/main.js\n");
 
 /***/ }),
 
@@ -105,7 +104,7 @@ console.log(test);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hc3NldHMvc2Fzcy9hcHAuc2Nzcz9mMjEzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6Ii4vYXNzZXRzL3Nhc3MvYXBwLnNjc3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyByZW1vdmVkIGJ5IGV4dHJhY3QtdGV4dC13ZWJwYWNrLXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./assets/sass/app.scss\n");
 
 /***/ }),
 
@@ -116,8 +115,8 @@ console.log(test);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/michaelcopanos/projects/client-projects/jills-blog/assets/js/main.js */"./assets/js/main.js");
-module.exports = __webpack_require__(/*! /Users/michaelcopanos/projects/client-projects/jills-blog/assets/sass/app.scss */"./assets/sass/app.scss");
+__webpack_require__(/*! /Users/michealcopanos/projects/client-projects/nancys-project/craft-blog/assets/js/main.js */"./assets/js/main.js");
+module.exports = __webpack_require__(/*! /Users/michealcopanos/projects/client-projects/nancys-project/craft-blog/assets/sass/app.scss */"./assets/sass/app.scss");
 
 
 /***/ })
