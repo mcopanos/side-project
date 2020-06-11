@@ -1,5 +1,15 @@
 header {
   grid-column: 2 / 3;
   grid-row: 1 / 3;
-  background-color: #0F83E8;
+  background-color: #f1c9c9;
+  opacity: 72%;
+}
+
+nav {
+  border: 1px solid;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
