@@ -3,7 +3,7 @@
 /vendor
 .DS_Store
 /web/**
-/web/css
+/web/assets/css/**
 !/web/index.php
 !/web/.htaccess
 !/web/web.config
