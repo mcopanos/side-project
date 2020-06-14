@@ -3,6 +3,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
   }
   
   body {
@@ -14,4 +15,11 @@
     grid-template-rows: 40vh 60vh;
     //background-image: url();
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+
+//  left off at styling social icons
+
 
