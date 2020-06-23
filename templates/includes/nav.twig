@@ -7,18 +7,20 @@
         </div>
         <div class="nav-links">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Subscribe</li>
+                {% for linkItem in navigation.linkGroup.all() %}
+                    <li>
+                        {{ linkItem.customLink.getLink({class: 'link-item'})}}
+                    </li>
+                {% endfor %}
             </ul>
         </div>
-        <div class="social-links">
-            <ul>
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Pinterest</li>
-                <li>Subscribe</li>
-            </ul>
-        </div>
+{#        <div class="social-links">#}
+{#            <ul>#}
+{#                <li>Instagram</li>#}
+{#                <li>Facebook</li>#}
+{#                <li>Pinterest</li>#}
+{#                <li>Subscribe</li>#}
+{#            </ul>#}
+{#        </div>#}
     </nav>
 </header>
